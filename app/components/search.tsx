@@ -1,7 +1,7 @@
 'use client';
 
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
-import { Suspense, useState } from 'react';
+import { useState } from 'react';
 import { searchBooksByTitle } from '../lib/search';
 import { GUTENBERG_EBOOKS_URL, SEARCH_RESULTS_HOME } from '../lib/types';
 import { useDebouncedCallback } from 'use-debounce';
